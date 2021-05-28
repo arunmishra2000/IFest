@@ -1,0 +1,17 @@
+.flex{
+    flex-direction: row;
+}
+
+@media screen and (max-width: 992px) {
+    .flex {
+      flex-direction: column;
+    }
+  }
+
+
+  @media screen and (max-width: 992px) {
+    .cblogo img {
+      
+      margin: -3rem;
+    }
+  }
