@@ -4,6 +4,6 @@ import { Card } from '../Card/Card.component'
 
 export const CardList = ({ data }) => (
     data.map(element => (
-        <Card key={element.id} info={element} />
+        <Card key={element.id} info={element} source={element.source} />
     ))
 )

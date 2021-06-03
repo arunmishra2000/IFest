@@ -8,7 +8,7 @@ const Sponsors = () => {
       <Container id="sponsors">
         <HeadingH1>Sponsors</HeadingH1>
         <div className="flex" style={{ display: "flex", padding: "1rem" }}>
-          <div className="logo1" style={{ display: "flex" }}>
+          <div className="logo1 card1" style={{ display: "flex" }}>
             <div className="__logo" style={{ padding: "0.2rem" }}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -218,7 +218,7 @@ const Sponsors = () => {
               </svg>
             </div>
           </div>
-          <div className="cblogo">
+          <div className="cblogo card1">
             <img
               style={{ height: "4rem", paddingLeft: "4rem" }}
               src={Cblogo}

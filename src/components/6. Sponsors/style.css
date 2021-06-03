@@ -2,6 +2,12 @@
     flex-direction: row;
 }
 
+.card1:hover {
+    transform: scale(1.05);
+    
+      
+}
+
 @media screen and (max-width: 992px) {
     .flex {
       flex-direction: column;
